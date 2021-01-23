@@ -31,7 +31,7 @@ type Project {
 }
 input ProjectInput {
   name: String
-  UserId: ID!
+  CustomerId: ID!
 }
 type Task {
   id: ID!
@@ -157,7 +157,7 @@ type RootMutation {
     updateBuyer(_id: ID!, input: BuyerUpdateInput): Buyer
     deleteBuyer(_id: ID!) : Buyer
 
-   createCustomer(input: CustomerInput!): Customer
+  createCustomer(input: CustomerInput!): Customer
   updateCustomer(id: ID!, input: CustomerInput!): Customer
   removeCustomer(id: ID!): Customer
   createProject(input: ProjectInput!): Project
