@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.navbar {
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  flex: 0 0 auto;
+  background: #282c34;
+}
+
+.navbar-right {
+  width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #4caf50;
+}
+
+.auth-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 400px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-submit {
+  width: 100px;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: #45a049;
+}
+
+.tablebody {
+  margin: 100px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333333;
+  background: #ffffff;
+  line-height: 2.5;
+}
+
+.fa-trash-alt:hover {
+  color: red;
+}
+
+.printme {
+  display: none;
+}
+@media print {
+  .printme {
+    display: block;
+  }
+}
+
+.cgst-title {
+  color: #3273dc;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+td {
+  height: 30px;
+  width: 50px;
+}
+
+#cssTable td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.column {
+  text-align: left;
+}
+
+.label-right {
+  text-align: right;
+}
+
+.container {
+  margin: 150px auto;
+}
+
+.control-button {
+  text-align: center;
+}
+
+.invisible {
+  position: absolute;
+  left: -9999px;
+}
